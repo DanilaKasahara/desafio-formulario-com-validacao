@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    .secao-contato {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 20px 10px;
+    }
+
+    .informacoes-contato {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .informacoes-contato h3 {
+        width: 100%;
+    }
+
+    .formulario-contato {
+        width: 100%;
+        max-width: none;
+    }
+}

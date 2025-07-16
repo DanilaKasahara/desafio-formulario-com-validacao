@@ -1,0 +1,89 @@
+html{
+    background-image: url(../src/imagens/bg-repeat.jpg);
+    background-size: contain;
+
+}
+
+.secao-contato{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.informacoes-contato{
+    padding: 50px;
+    color: #fff;
+    width: 310px;
+}
+
+.informacoes-contato h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.informacoes-contato h3{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 11px;
+}
+
+.secao-contato .formulario-contato{
+    display: flex;
+    background-color: #fff;
+    min-width: 340px;
+    min-height: 355px;
+}
+
+.secao-contato .formulario-contato .item-formulario input{
+    width: 299px;
+    height: 35px;
+    margin-left: 21px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.secao-contato .formulario-contato .item-formulario textarea{
+    width: 299px;
+    height: 35px;
+    margin-left: 21px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.secao-contato .formulario-contato .campos-obrigatorios {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.secao-contato .formulario-contato .botao-enviar {
+    width: 298px;
+    height: 42px;
+    background-color: #3ccc87;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.erro-mensagem {
+    color: red;
+    font-size: 12px;
+    margin-left: 22px;
+    margin-top: 5px;
+    display: none;
+}
+
+.erro-mensagem.ativa {
+    display: block;
+}
+
+input.campo-vazio,
+textarea.campo-vazio {
+    border: 1px solid red !important;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsive.css">
+
+    <title>Desafio HTML/CSS/JS (Formulário com validação) </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="secao-contato">
+            <div class="informacoes-contato">
+                <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+                <h3>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</h3>
+            </div>
+
+
+            <div class="formulario-contato">
+                <form method="GET" action="index.html">
+                    <div class="item-formulario">
+                        <input type="text" class="input" name="nome" id="nome" placeholder=" Nome completo *">
+                        <span class="erro-mensagem"></span>
+                    </div>
+                    <div class="item-formulario">
+                        <input type="text" class="input" name="email" id="email" placeholder=" Email *">
+                        <span class="erro-mensagem"></span>
+                    </div>
+                    <div class="item-formulario">
+                        <input type="text" class="input" name="telefone" id="telefone" placeholder=" Telefone *">
+                        <span class="erro-mensagem"></span>
+                    </div>
+                    <div class="item-formulario">
+                        <textarea class="input" name="mensagem" id="mensagem" placeholder="Mensagem *"></textarea>
+                        <span class="erro-mensagem"></span>
+                    </div>
+
+                    <p class="campos-obrigatorios"> *campos obrigatórios</p>
+
+                    <input type="submit" class="botao-enviar" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="src/js/validacao.js"></script>
+</body>
+
+</html>
