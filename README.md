@@ -12,7 +12,7 @@ Durante o desenvolvimento, aprendi e pratiquei:
 - 🔧 Estruturação de páginas com **HTML5 semântico**
 - 🎨 Estilização com **CSS3**, usando **Flexbox** 
 - 📱 Criação de **layouts responsivos**
-- ⚙️ Manipulação do DOM com **JavaScript puro (vanilla JS)**
+- ⚙️ Manipulação do DOM com **JavaScript**
 - 🧹 Organização de código e estrutura de pastas por função
 
 
