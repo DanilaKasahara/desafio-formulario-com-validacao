@@ -19,7 +19,7 @@ Durante o desenvolvimento, aprendi e pratiquei:
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
-- CSS3 /flexbox
+- CSS3 / Flexbox
 - JavaScript
 - Google Fonts
 - [x] Design Responsivo
